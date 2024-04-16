@@ -20,7 +20,7 @@
         "id": "text-1",
         "type": "text",
         "classNames": "mt-5",
-        "innerHtml": "Aha Digital AB är ett enmansföretag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs av Tatsumi Suzuki som i grunden är en agilt driven webbutvecklare med certifikat inom webbtillgänglighet."
+        "innerHtml": "Aha Digital AB är ett företag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs som ett enmansföretag av mig, Tatsumi Suzuki. Jag är till grunden front end-utvecklare med öga för design och är certifierad inom webbtillgänglighet."
       },
       {
         "id": "heading-2",
@@ -76,7 +76,7 @@
                 "alt": "",
                 "linkTo": "/universell-utformning-och-tillganglighet",
                 "linkText": "Ungefär 20% av besökarna har någon form av funktionsnedsättning.",
-                "innerHtml": "Vad kan vi göra för att lösa felen och vilka krav har vi på oss?",
+                "innerHtml": "Jag kan hjälpa till med att förstå vilka lagar och regler som gäller, samt utbilda och bidra med konketa åtgärder.",
                 "headingLevel": "h2"
               }
             ]
@@ -107,8 +107,8 @@
                 "src": "/cases.png",
                 "alt": "",
                 "linkTo": "/uppdrag",
-                "linkText": "Tidigare uppdrag och referenser",
-                "innerHtml": "Referenser och uppdrag som jag är lite extra stolt över.",
+                "linkText": "Tidigare uppdrag",
+                "innerHtml": "Jag har jobbat med uppdrag för både privat- och offentlig sektor. Här är några som jag är lite extra stolt över.",
                 "headingLevel": "h2"
               }
             ]

@@ -8,7 +8,7 @@
         "type": "heading",
         "headingLevel": "h1",
         "classNames": "heading heading--xl break-word",
-        "innerHtml": "Referenser och uppdrag",
+        "innerHtml": "Tidigare uppdrag",
         "forwardRef": true
       },
       {
@@ -52,7 +52,7 @@
         "id": "container-1-lead-2",
         "type": "text",
         "classNames": "text--lg mt-7",
-        "innerHtml": "Nyfiken på att veta mer om mig? Kontakta mig så bokar vi in ett möte eller om ni vill se på min konsultprofil eller CV."
+        "innerHtml": "Nyfiken på att veta mer om mig eller söker du efter referenser? Kontakta mig så bokar vi in ett möte eller om ni vill se på min konsultprofil eller CV."
       }
     ]
   }

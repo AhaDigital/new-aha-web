@@ -14,11 +14,12 @@ const Heading = forwardRef<HTMLHeadingElement, HeadingProps>((props, ref) => {
 
   return (
     <HeadingComponent
-      {...(id ? { "id": id } : null)}
-      {...(classNames ? { "className": classNames } : null)}
+      {...(classNames ? { "className": `heading-container ${classNames}` } : null)}
       {...rest}
-      dangerouslySetInnerHTML={{ __html: innerHtml }}
-    />
+    >
+      {id && <span id={id} className='heading-position' />}
+      <span {...(classNames ? { "className": classNames } : null)} dangerouslySetInnerHTML={{ __html: innerHtml }} />
+    </HeadingComponent>
   )
 });
 
