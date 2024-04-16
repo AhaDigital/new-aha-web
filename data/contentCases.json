@@ -15,7 +15,7 @@
         "id": "container-1-lead-1",
         "type": "text",
         "classNames": "text--lg mt-5",
-        "innerHtml": "Jag har jobbat med små och några lite längre uppdrag. Här ser ni några som jag är lite extra stolt över"
+        "innerHtml": "Jag har jobbat med uppdrag för både privat- och offentlig sektor. Här ser ni några som jag är lite extra stolt över."
       },
       {
         "id": "list-1",
@@ -32,7 +32,7 @@
             "id": "list-1-item-2",
             "text": "Netlife Design",
             "textSecondary": "Underkonsult i flera uppdrag",
-            "linkTo": "/uppdrag/netlife"
+            "linkTo": "/uppdrag/netlife-design"
           },
           {
             "id": "list-1-item-3",

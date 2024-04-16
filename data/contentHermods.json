@@ -1,0 +1,147 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "Hermods <span class='heading__underline'>Novo<span></span></span> elevgränssnitt",
+        "forwardRef": true
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Som underkonsult åt Hermods har jag arbetat som lead front end-utvecklare, tillgänglighets specialist och UX/UI-designer."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-2-image-1",
+        "type": "image",
+        "src": "/hermods2.png",
+        "height": 300,
+        "alt": "",
+        "dimension": "wide"
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8 is-offset-2 mt-7",
+    "content": [
+      {
+        "id": "container-3-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Lead front end, specialist inom tillgänglighet och UX/UI-desinger",
+        "forwardRef": true
+      },
+      {
+        "id": "container-3-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Mars 2023 kontaktade en fd. kollega mig och sa att han behövde hjälp med WCAG på sitt nya jobb, Hermods. Vid vårt första möte fick jag bekanta mig med elevgränssnittet Hermods Novo och blev informerad om deras planer och hur ett nytt team satts ihop för att bygga framtidens Novo."
+      },
+      {
+        "id": "container-3-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "För att följa <strong>lagen om tillgänglig digital offentlig service</strong> räcker det ibland inte med en enkel tillgänglighetsanpassning, utan tjänsten skulle behöva designas om. Så fick det bli i detta fallet."
+      },
+      {
+        "id": "container-3-text-3",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Eftersom att jag skulle ha fullt upp med att hjälpa deras nya team med javascript-ramverket Nextjs så behövde jag avlastning av någon som är duktig på UX/UI-design. Jag och <a href='https://kiras.se/'>Jannike</a> jobbade med design för Novo och slutförde designarbetet under mars 2024."
+      }
+    ]
+  },
+  {
+    "id": "container-4",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Nya elevgränssnittets design",
+        "forwardRef": true
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Det blev tillslut väldigt många skisser med många olika funktionella varianter. Här ser ni ett axplock från designen."
+      },
+      {
+        "id": "container-4-image-1",
+        "type": "image",
+        "src": "/hermods-design.png",
+        "alt": "Illustration av Hermods Novo design",
+        "dimension": "contain"
+      }
+    ]
+  },
+  {
+    "id": "container-5",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-5-image-1",
+        "type": "image",
+        "src": "/hermods-kurs.png",
+        "alt": "Illustration av Hermods Novos kursdesign",
+        "dimension": "contain"
+      }
+    ]
+  },
+  {
+    "id": "container-6",
+    "columnClass": "column mt-7",
+    "content": [
+      {
+        "id": "container-6-image-1",
+        "type": "image",
+        "src": "/hermods-artikel.png",
+        "alt": "Illustration av Hermods Novos artikeldesign",
+        "dimension": "contain"
+      }
+    ]
+  },
+  {
+    "id": "container-7",
+    "columnClass": "column mt-7",
+    "content": [
+      {
+        "id": "container-7-image-1",
+        "type": "image",
+        "src": "/hermods-listmall.png",
+        "alt": "Illustration av Hermods Novos artikeldesign med listor",
+        "dimension": "contain"
+      }
+    ]
+  },
+  {
+    "id": "container-8",
+    "columnClass": "column mt-7",
+    "content": [
+      {
+        "id": "container-8-image-1",
+        "type": "image",
+        "src": "/hermods-flersteg.png",
+        "alt": "Illustration av Hermods Novos flerstegsformulär",
+        "dimension": "contain"
+      }
+    ]
+  }
+]

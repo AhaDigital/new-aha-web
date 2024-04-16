@@ -1,0 +1,178 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "<span class='heading__row'>Aha Digital</span> i samarbete med <span class='heading__underline'>Netlife Design<span></span></span>",
+        "forwardRef": true
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Som underkonsult åt norska Netlife Design har jag fått bidra med front end-utveckling och tillgänglighet åt många av deras kunder inom privat- och offentlig sektor."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-2-image-1",
+        "type": "image",
+        "src": "/netlife2.png",
+        "height": 300,
+        "alt": "",
+        "dimension": "wide"
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8 is-offset-2 mt-7",
+    "content": [
+      {
+        "id": "container-3-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Norges Bank (Norges oljefond)",
+        "forwardRef": true
+      },
+      {
+        "id": "container-3-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Som underkonsult för Norska Netlife design har jag fått i uppdrag att underhålla och utveckla front end åt norges i särklass kändaste fond."
+      },
+      {
+        "id": "container-3-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Under uppdragets gång fick jag även driva igenom en del tillgänglighetsanpassningar, analys och deras första tillgänglighetsredogörelse. Deras hemsida <a href='https://nbim.no'>nbim.no</a>."
+      }
+    ]
+  },
+  {
+    "id": "container-4",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Designmaskinen",
+        "forwardRef": true
+      },
+      {
+        "id": "container-4-text-1",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Under min tid som konsult åt Netlife fick jag vara med i ett av de mest tekniskt krävande men samtidigt ett riktigt kul projekt. Deras första produkt som skulle paketeras och säljas till företag och offentliga aktörer som skapar mycket digital- och tryckmaterial."
+      },
+      {
+        "id": "container-4-text-2",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Med världens enklaste designverktyg, trumvirvel... <strong>designmaskinen</strong> kan alla på jobbet skapa plakater, annonser, broshyrer, annonser och digitala posters. Läs mer om <a href='https://www.netlife.com/designmaskinen'>designmaskinen</a>."
+      }
+    ]
+  },
+  {
+    "id": "container-5",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-5-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "El-proffen",
+        "forwardRef": true
+      },
+      {
+        "id": "container-5-text-1",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Under min tid som konsult åt Netlife fick jag vara med i ett av de mest tekniskt krävande men samtidigt ett riktigt kul projekt. Norges största elkedja med 180 medlemmar (företag) skulle dela på samma tekniska lösning på sina egna domäner."
+      },
+      {
+        "id": "container-5-text-2",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Som front end lead i projktet fick jag tillsammans med mina norska kollegor fundera ut hur en teknisk lösning kunde publiceras för 180 domäner och implementera nya hemsidor skrivna i Nextjs och CraftCMS. Se resultatet på huvud domänen <a href='https://www.elproffen.no/'>elproffen.no</a>."
+      }
+    ]
+  },
+  {
+    "id": "container-6",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-6-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "SOMM",
+        "forwardRef": true
+      },
+      {
+        "id": "container-6-text-1",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Ett av mina häftigaste uppdrag var när jag skulle hjälpa Netlife att bygga en ny hemsida och kunskapsdatabas åt deras kund (<span lang='nb-no'>Senter for oljevern og marint miljø</span> - SOMM) på Lofoten."
+      },
+      {
+        "id": "container-6-text-2",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "SOMM var en nationell- och internationell kunskaps- och kompentenscenter för marin nedskräpning och oljeutsläpp finansierad av Norska staten."
+      },
+      {
+        "id": "container-6-text-3",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Som front end lead i projktet fick jag fundera ut hur databasen skulle byggas och kunna filtreras och sökas på. Desvärre valde norges regering att omstrukturera myndigheten. Numera drivs den av <span lang='nb-no'>miljødirektoratet</span>. Hemsidan och kunskapsdatabasen är dock densamma. Länk till <a href='https://www.marfo.no/'>marfo.no</a>."
+      },
+      {
+        "id": "container-6-text-4",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Jag är väldigt stolt över att fått jobba med SOMM och Netlife i det här projektet. Att jag har bidragit med min kunskap så att forskarna kan göra sitt jobb kring marina utsläpp och att få se hur de jobbar på plats uppe i Lofoten är något som jag kommer att minnas."
+      }
+    ]
+  },
+  {
+    "id": "container-7",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-7-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Kampanj",
+        "forwardRef": true
+      },
+      {
+        "id": "container-7-text-1",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Under 2021 hade jag ett uppdrag att som underkonsult för Norska Netlife design att färdigställa en kampanj åt folkhögskolan i Norge."
+      },
+      {
+        "id": "container-7-text-2",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Kampanjen <a href='https://mindrommelinje.no/'><span lang='nb-no'>Min drømmelinje</span></a> lanserades under våren och är byggd med React (CRA)."
+      }
+    ]
+  }
+]

@@ -8,7 +8,8 @@
         "type": "heading",
         "headingLevel": "h1",
         "classNames": "heading heading--xl break-word",
-        "innerHtml": "<span class='heading__row'>Ungefär <span class='heading__underline'>20%<span></span></span> av</span> besökarna har <span class='heading__row'>någon form av</span> funktionsnedsättning"
+        "innerHtml": "<span class='heading__row'>Ungefär <span class='heading__underline'>20%<span></span></span> av</span> besökarna har <span class='heading__row'>någon form av</span> funktionsnedsättning",
+        "forwardRef": true
       },
       {
         "id": "container-1-lead-1",

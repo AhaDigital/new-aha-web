@@ -1,0 +1,38 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "Tillgänglighetsanalys"
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Under 2021 hade jag som uppdrag att skapa en tillgänglighetsanalys åt Fyndiq."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column is-8 mt-7",
+    "content": [
+      {
+        "id": "container-2-text-1",
+        "type": "text",
+        "innerHtml": "Den gjordes i Mac och Windowsmiljö samt mobila tester i android och iOS. Till analysen användes automatiska tester (Lighthouse och Wave), test med Apples Voice over och NVDA på Windows."
+      },
+      {
+        "id": "container-2-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Analysen ligger som grund till agilt utvecklande av Fyndiq och som en lägesrapport."
+      }
+    ]
+  }
+]

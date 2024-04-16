@@ -8,7 +8,8 @@
         "type": "heading",
         "headingLevel": "h1",
         "classNames": "visually-hidden",
-        "innerHtml": "Digitala tjänster för alla"
+        "innerHtml": "Digitala tjänster för alla",
+        "forwardRef": true
       },
       {
         "id": "lead-1",

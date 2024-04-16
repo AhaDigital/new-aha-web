@@ -6,6 +6,7 @@ import Providers from '@/app/providers';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SkipToMain from "@/components/SkipToMain";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"], weight: "700", variable: '--font-roboto-condensed' });
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"], variable: '--font-roboto' });
@@ -44,9 +45,12 @@ export default function RootLayout({
         <Providers>
           <SkipToMain />
           <Header />
-          <main tabIndex={-1} id="mainContent">
-            {children}
-          </main>
+          <div>
+            <Breadcrumbs />
+            <main tabIndex={-1} id="mainContent">
+              {children}
+            </main>
+          </div>
           <Footer />
         </Providers>
       </body>

@@ -18,7 +18,7 @@ const Template: React.FC<TemplateProps> = ({ content, inEnglish }) => {
           </ul>
         )}
       </Aside>
-      <div className='page-content'>
+      <div className='page-content--article'>
         <div className='content container'>
           {content && (
             <>

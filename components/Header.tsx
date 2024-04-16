@@ -13,7 +13,7 @@ import IconClose from '@/components/primitives/icons/IconClose';
 import IconChevron from '@/components/primitives/icons/IconChevron';
 
 const Header: React.FC = () => {
-  const currentPath = usePathname()
+  const currentPath = usePathname();
 
   /** Menu state handler */
   const { isMenuOpen, setIsMenuOpen } = useContext(MenuStateContext);
@@ -22,6 +22,21 @@ const Header: React.FC = () => {
 
   const buttonRef = useRef<HTMLButtonElement>(null);
   const navRef = useRef<HTMLDivElement>(null);
+
+  // State to track previous pathname
+  const [prevPathname, setPrevPathname] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Update previous pathname when current pathname changes
+    setPrevPathname(currentPath);
+  }, [currentPath]);
+
+  useEffect(() => {
+    // Close the menu when the route changes
+    if (prevPathname && prevPathname !== currentPath) {
+      setIsMenuOpen(false);
+    }
+  }, [prevPathname, currentPath, setIsMenuOpen]);
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -94,7 +109,13 @@ const Header: React.FC = () => {
     <header className='page-header'>
       <div className='container-large'>
         <div className='page-header__logo'>
-          <Logo animate={animateLogo} />
+          {currentPath === '/' ? (
+            <Logo animate={animateLogo} />
+          ) : (
+            <Link href="/" aria-label='Till startsidan'>
+              <Logo animate={animateLogo} />
+            </Link>
+          )}
         </div>
         <nav role="navigation" aria-label="huvudnavigation">
           <div className='page-header__hamburger'>

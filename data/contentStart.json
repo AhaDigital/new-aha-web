@@ -88,7 +88,7 @@
               {
                 "id": "columns-2-column-1-blurb-1",
                 "type": "blurb",
-                "src": "/dov.svg",
+                "src": "/CEO2.jpg",
                 "alt": "",
                 "linkTo": "/tjanster",
                 "linkText": "Tjänster - Programmering, UX/UI-design och analys av webbplats.",
@@ -104,11 +104,11 @@
               {
                 "id": "columns-3-column-1-blurb-1",
                 "type": "blurb",
-                "src": "/dov.svg",
+                "src": "/cases.png",
                 "alt": "",
                 "linkTo": "/uppdrag",
                 "linkText": "Tidigare uppdrag och referenser",
-                "innerHtml": "",
+                "innerHtml": "Referenser och uppdrag som jag är lite extra stolt över.",
                 "headingLevel": "h2"
               }
             ]

@@ -1,0 +1,44 @@
+.aside {
+  display: block;
+  margin: 0 $spacing4 $spacing5 $spacing4;
+  background-color: var(--color-secondary-100);
+  border-top: 4px solid var(--color-secondary-200);
+
+  @include desktop {
+    width: calc(33.333% - var(--bulma-column-gap) / 2);
+    min-height: 200px;
+    position: absolute;
+    right: $spacing5;
+    top: 20vh;
+    z-index: 1;
+  }
+
+  @include widescreen {
+    width: calc(25% - var(--bulma-column-gap) / 2);
+  }
+
+  &__content {
+    padding: $spacing5;
+  }
+
+  &__contact {
+    display: none;
+
+    @include desktop {
+      display: block;
+      padding: $spacing5;
+      background-color: var(--color-secondary-400);
+      color: var(--color-neutral-100);
+
+      span {
+        @include roboto-condensed();
+        font-size: $fontSizeDefault;
+        display: block;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}

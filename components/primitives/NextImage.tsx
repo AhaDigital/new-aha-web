@@ -11,13 +11,16 @@ interface ImageProps {
 
 const NextImage: React.FC<ImageProps> = (({ dimension, src, width, height, alt }) => {
   let finalClass = ''
-  console.log(dimension)
+
   switch (dimension) {
     case 'square':
       finalClass += 'next-image next-image--square'
       break;
     case 'wide':
       finalClass += 'next-image next-image--wide'
+      break;
+    case 'contain':
+      finalClass += 'next-image next-image--contain'
       break;
     default:
       finalClass = 'next-image';

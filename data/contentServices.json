@@ -8,7 +8,8 @@
         "type": "heading",
         "headingLevel": "h1",
         "classNames": "heading heading--xl",
-        "innerHtml": "<span class='heading__row'>Digitala tjänster</span> som funkar <span class='heading__underline'>för<span></span></span> <span class='heading__underline'>alla<span></span>"
+        "innerHtml": "<span class='heading__row'>Digitala tjänster</span> som funkar <span class='heading__underline'>för<span></span></span> <span class='heading__underline'>alla<span></span>",
+        "forwardRef": true
       },
       {
         "id": "container-1-lead-1",

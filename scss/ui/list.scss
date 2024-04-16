@@ -57,8 +57,12 @@
 
   &__aside {
     li a:hover {
-      background-color: var(--color-secondary-150);
-      color: var(--color-secondary-500);
+      background-color: var(--color-secondary-400);
+      color: var(--color-neutral-100);
+
+      svg {
+        color: var(--color-neutral-100);
+      }
     }
   }
 }

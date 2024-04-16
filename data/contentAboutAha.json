@@ -8,7 +8,8 @@
         "type": "heading",
         "headingLevel": "h1",
         "classNames": "heading heading--xl",
-        "innerHtml": "Om Aha Digital"
+        "innerHtml": "Om Aha Digital",
+        "forwardRef": true
       },
       {
         "id": "container-1-lead-1",
