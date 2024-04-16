@@ -1,0 +1,91 @@
+.page-footer {
+  background-color: var(--color-secondary-100);
+
+  &__navigation {
+    display: block;
+
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__link {
+    display: block;
+    font-size: $fontSizeDefault;
+    font-weight: 500;
+    padding: $spacing3;
+    border-bottom: 1px solid var(--color-secondary-400);
+    color: var(--color-neutral-300);
+    position: relative;
+
+    svg {
+      transition: right 0.2s linear;
+      color: var(--color-secondary-500);
+      position: absolute;
+      right: $spacing4;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &:hover {
+      background-color: var(--color-secondary-400);
+      color: var(--color-neutral-100);
+
+      svg {
+        right: $spacing3;
+        color: var(--color-neutral-100);
+      }
+    }
+
+    &--current {
+      background-color: var(--color-secondary-400);
+      color: var(--color-neutral-100);
+
+      &:hover {
+        background-color: var(--color-secondary-500);
+      }
+
+      &:focus {
+        outline-color: var(--color-neutral-300);
+      }
+    }
+
+    @include tablet {
+      padding: $spacing5;
+      border: 0;
+
+      svg {
+        display: none;
+      }
+    }
+  }
+
+  &__social {
+    padding: $spacing4;
+    color: var(--color-neutral-100);
+    font-size: $fontSizeSm;
+    font-weight: 500;
+    background-color: var(--color-secondary-400);
+  }
+
+  &__social-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--color-neutral-100);
+      padding: $spacing2;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+  }
+}

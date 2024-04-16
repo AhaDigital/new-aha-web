@@ -1,0 +1,159 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "Om Aha Digital"
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Jag skapar tillgänglighetsanpassade tjänster som fungerar för så många som möjligt redan från början."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-2-image-1",
+        "type": "image",
+        "src": "/banner.png",
+        "height": 300,
+        "alt": "",
+        "dimension": "wide"
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-3-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Mitt namn är Tatsumi Suzuki och jag driver företaget Aha digital AB. Jag är en IT-konsult och arbetar med webtillgänglighet, WCAG, universell utforming och frontend-utveckling. Jag är certifierad inom webbtillgänglighet (<a href='https://www.accessibilityassociation.org/s/wascertification'>IAAP Certified WAS</a>)."
+      },
+      {
+        "id": "container-3-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Aha digital startades för att skapa digitala möjligheter för alla. Att besöka en webbplats skall kunna göras av fler människor än de med perfekt syn och retinaskärm. Alla ska ha möjlighet till digitala aha-upplevelser."
+      }
+    ]
+  },
+  {
+    "id": "container-4",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Bakgrund",
+        "forwardRef": true
+      },
+      {
+        "id": "container-4-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Aha digital grundades 2015 som FFMedia AB (även kallad Fast Forward Media) av Carl Efvergren, Patric Franksson och mig, Tatsumi Suzuki."
+      },
+      {
+        "id": "container-4-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "De första tre åren var vi en renodlad digitalbyrå med syfte att skapa webbplatser med hög prestanda, funktionalitet och SEO."
+      },
+      {
+        "id": "container-4-text-3",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Fast Forward Media var ett företag som förvandlade små som stora idéer till webbplatser och appar."
+      },
+      {
+        "id": "container-4-text-4",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Året 2018 gick trögt och slutade med att vi fick sälja vårt nya kontor och börja avveckla allt vi hade byggt upp. Under året jobbade jag vidare med support för våra befintliga kunder. Samtidigt passade jag på att göra något jag aldrig gjort i livet, att lämna Stockholm för en stund. Jag och min sambo flyttade till Oslo och där tog jag en anställning hos Norges bästa byrå, Netlife Design."
+      },
+      {
+        "id": "container-4-text-5",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Under tiden i Norge hade jag många fina och välmeriterade uppdrag inom offentlig sektor och blev imponerad av arbetet inom universell utformning. I Norge tar man tillgänglighet på största allvar. Kunder är väl medvetna om vad som krävs. De har krav på digital tillgänglighet på offentlig- och privat sektor."
+      },
+      {
+        "id": "container-4-text-6",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Jag flyttade hem till Stockholm under Januari 2020 med massa ny kunskap inom området och tog en anställning hos Fyndiq. Där jobbade jag som frontend-utvecklare och självutnämnd tillgängligetsexpert. Från en lågprioriterad del av utveckling och design blev tillgänglighet en del av Fyndiqs arbetssätt och är idag en av många krav för funktionalitet som byggs på webbplatsen."
+      },
+      {
+        "id": "container-4-text-7",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Jag började förstå att jag skulle kunna använda min kunskap inom området till att hjälpa fler företag och webbplatser med <a href='/universell-utformning-och-tillganglighet/#universell-utformning'>universell utformning.</a>."
+      },
+      {
+        "id": "container-4-text-8",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Jag vill hjälpa till att göra digitala <a href='/tjanster'>tjänster</a> bättre och skapa aha-upplevelser för så många som möjligt."
+      }
+    ]
+  },
+  {
+    "id": "container-5",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-5-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Om Tatsumi",
+        "forwardRef": true
+      },
+      {
+        "id": "container-5-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Min karriär inom webbutveckling började med en YH-utbildning under åren 2008-2009. Därefter har jag arbetat på Stardoll, Radioplay, Fyndiq och på Netlife Design i Oslo. Jag har även varit delägare i Fast Forward Media som idag heter Aha digital AB."
+      },
+      {
+        "id": "container-5-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Med min bakgrund som webbutvecklare är jag bra på att bygga modulär (baserat på atomic design) och datadriven design baserat på användarmönster. Jag försöker alltid att se helheten och bygga design baserat på god UX och modulär UI."
+      },
+      {
+        "id": "container-5-text-3",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Mina främsta egenskaper är att jag kan lite av allt. Mycket av just \"allt\" kommer från mina år som företagare."
+      },
+      {
+        "id": "container-5-text-4",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Som ett exempel har jag under många år skapat UX/UI-design till många kunder på grund av att jag har jobbat tillsammans med många duktiga designers genom åren i branchen och är genuint intresserad av design som jag med tiden blivit mer bekväm med att inkludera i mina tjänster."
+      },
+      {
+        "id": "container-5-text-5",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Se gärna mer om mina referenser och utvalda <span lang='en'>case</span> på sidan <a href='/uppdrag'/>uppdrag</a>."
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-10-tablet is-11-tablet is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl break-word",
+        "innerHtml": "Referenser och uppdrag",
+        "forwardRef": true
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Jag har jobbat med små och några lite längre uppdrag. Här ser ni några som jag är lite extra stolt över"
+      },
+      {
+        "id": "list-1",
+        "type": "list",
+        "classNames": "mt-7",
+        "list": [
+          {
+            "id": "list-1-item-1",
+            "text": "Hermods elevgränssnitt",
+            "textSecondary": "Lead front end, universell utformning och UX/UI-designer",
+            "linkTo": "/uppdrag/hermods"
+          },
+          {
+            "id": "list-1-item-2",
+            "text": "Netlife Design",
+            "textSecondary": "Underkonsult i flera uppdrag",
+            "linkTo": "/uppdrag/netlife"
+          },
+          {
+            "id": "list-1-item-3",
+            "text": "Sambla och Advisa",
+            "textSecondary": "Analysuppdrag",
+            "linkTo": "/uppdrag/sambla-advisa"
+          },
+          {
+            "id": "list-1-item-4",
+            "text": "Fyndiq",
+            "textSecondary": "Analysuppdrag",
+            "linkTo": "/uppdrag/fyndiq"
+          }
+        ]
+      },
+      {
+        "id": "container-1-lead-2",
+        "type": "text",
+        "classNames": "text--lg mt-7",
+        "innerHtml": "Nyfiken på att veta mer om mig? Kontakta mig så bokar vi in ett möte eller om ni vill se på min konsultprofil eller CV."
+      }
+    ]
+  }
+]

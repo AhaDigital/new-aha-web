@@ -1,0 +1,239 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: var(--color-neutral-100);
+  border-bottom: 1px solid var(--color-neutral-200);
+
+  @include desktop {
+    border-bottom: 1px solid var(--color-neutral-200);
+  }
+
+  &__logo {
+    width: 60px;
+    height: 54px;
+    position: absolute;
+    top: $spacing2;
+    left: $spacing4;
+    z-index: 0;
+
+    @include desktop {
+      width: 86px;
+      height: 77px;
+      left: $spacing5;
+    }
+  }
+
+  &__hamburger {
+    display: flex;
+    justify-content: flex-end;
+    padding: $spacing2 $spacing4;
+
+    @include desktop {
+      display: none;
+      visibility: none;
+      padding: $spacing2 $spacing5;
+    }
+  }
+}
+
+.navigation-list-container {
+  display: none;
+  visibility: hidden;
+  outline: none;
+  padding-top: $spacing5;
+  border-top: 1px solid var(--color-neutral-200);
+  gap: $spacing6;
+
+  &--visible {
+    height: 100vh;
+    padding-bottom: 5rem;
+    overflow-y: auto;
+    outline: none;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include desktop {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    padding-top: 0;
+    gap: 0;
+  }
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-items: center;
+  margin: 0 $spacing4;
+
+  @include desktop {
+    flex-direction: row;
+    margin: 0 $spacing5;
+  }
+
+  &--top {
+    border: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: $spacing4;
+
+
+    @include desktop {
+      border-bottom: 1px solid var(--color-neutral-200);
+      border-bottom: none;
+      justify-content: flex-end;
+      gap: 0;
+    }
+  }
+
+  &__nav-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 1.7rem;
+    padding: 0 $spacing1;
+
+    &:has(.navigation-list__link) {
+      border-top: 1px solid var(--color-neutral-300);
+
+      &:last-child {
+        border-bottom: 1px solid var(--color-neutral-300);
+      }
+    }
+
+    @include desktop {
+      padding: 0;
+      border: 0;
+
+      &:has(.navigation-list__link),
+      &:has(.navigation-list__link):last-child {
+        border: 0;
+      }
+    }
+
+    &--top {
+      padding: 0;
+
+      @include desktop {
+        border-bottom: 1px solid var(--color-neutral-200);
+      }
+    }
+
+  }
+
+  &__top-navigation {
+    @include desktop {
+      border-bottom: 1px solid var(--color-neutral-200);
+    }
+  }
+
+  &__top-link,
+  &__link {
+    font-size: $fontSizeDefault;
+    font-weight: 500;
+    line-height: 2.75rem;
+
+    & svg {
+      width: 24px;
+      display: inline-flex;
+    }
+  }
+
+  &__top-link {
+    @extend .button-outline;
+    position: relative;
+    bottom: -1px;
+    font-size: $fontSizeSm;
+
+    @media all and (min-width: 375px) {
+      font-size: $fontSizeDefault;
+    }
+
+    @include desktop {
+      height: 44px;
+      padding: 0 $spacing3;
+      border: 0;
+      border-bottom: 1px solid transparent;
+      border-bottom: 1px solid var(--color-neutral-200);
+      border-radius: 0;
+
+      &:hover {
+        background-color: initial;
+      }
+    }
+  }
+
+  &__link {
+
+    display: flex;
+    width: 100%;
+    padding: 0 0 0 $spacing4;
+    position: relative;
+
+    svg {
+      transition: right 0.2s linear;
+      color: var(--color-neutral-300);
+      position: absolute;
+      right: $spacing4;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 10px;
+    }
+
+    &:before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background-color: transparent;
+      transform: translateY(-50%);
+      border-radius: 50%;
+    }
+
+    &:hover {
+      svg {
+        right: $spacing3;
+      }
+    }
+
+    &--current {
+      color: var(--color-secondary-300);
+
+      &:before {
+        background-color: var(--color-secondary-300);
+      }
+    }
+
+    @include desktop {
+      display: inline-flex;
+      position: relative;
+      bottom: -1px;
+      border: 0;
+      border-bottom: 1px solid transparent;
+      padding: 0 $spacing3;
+
+      svg {
+        display: none;
+      }
+
+      &:hover,
+      &--current {
+        color: var(--color-secondary-300);
+        border-color: var(--color-secondary-300);
+      }
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

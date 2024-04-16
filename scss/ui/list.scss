@@ -1,0 +1,64 @@
+.list {
+  li {
+
+    border-top: 1px solid var(--color-secondary-300);
+    position: relative;
+
+    &:last-child {
+      border-bottom: 1px solid var(--color-secondary-300);
+    }
+
+    span {
+      display: block;
+
+      &:first-child {
+        @extend .heading--sm;
+        font-weight: 500;
+      }
+
+      &:last-child {
+        @extend .text--sm;
+      }
+    }
+
+    svg {
+      position: absolute;
+      top: 50%;
+      right: $spacing4;
+      transform: translateY(-50%);
+      transition: right 0.2s linear;
+    }
+
+    a {
+      outline-color: transparent;
+      display: block;
+      padding: $spacing2;
+      padding-right: $spacing6;
+      color: var(--color-neutral-300);
+
+      svg {
+        color: var(--color-secondary-300);
+      }
+
+      &:hover {
+        color: var(--color-secondary-300);
+
+        svg {
+          right: $spacing3;
+        }
+      }
+
+      &:focus,
+      a:focus-visible {
+        outline-color: var(--color-secondary-400);
+      }
+    }
+  }
+
+  &__aside {
+    li a:hover {
+      background-color: var(--color-secondary-150);
+      color: var(--color-secondary-500);
+    }
+  }
+}

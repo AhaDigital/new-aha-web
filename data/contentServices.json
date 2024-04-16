@@ -1,0 +1,111 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "<span class='heading__row'>Digitala tjänster</span> som funkar <span class='heading__underline'>för<span></span></span> <span class='heading__underline'>alla<span></span>"
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Jag skapar tillgänglighetsanpassade tjänster som fungerar för så många som möjligt redan från början."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-2-image-1",
+        "type": "image",
+        "src": "/CEO.jpg",
+        "alt": "Bild på Tatsumi Suzuki, ägare av Aha Digital."
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-3-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Analys av webbplats",
+        "forwardRef": true
+      },
+      {
+        "id": "container-3-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Jag kan hjälpa till med att förstå vilka lagar och regler som gäller, samt utbilda och bidra med konketa åtgärder genom analys av webbplatsen."
+      },
+      {
+        "id": "container-3-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Analysens fokus är hur tillgänglig tjänsten är mot de lagar och regler som gäller i Sverige. Utöver tillgänglighetsanalys och tillgänglighetsredogörelsen kan jag även bistå med analys av semantik, SEO och prestanda."
+      }
+    ]
+  },
+  {
+    "id": "container-4",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Programmering",
+        "forwardRef": true
+      },
+      {
+        "id": "container-4-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Med mig i ert team får ni en mångsidig webbutvecklare med god öga för design, funktionalitet och utveckling i en agil miljö. Jag har lång erfarenhet av skalbara webbapplikationer med flera uppdrag inom offentlig- som privat sektor i Norden."
+      },
+      {
+        "id": "container-4-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "De senaste åren har jag programmerat för frontend främst med javascript (React, Nodejs, vanillajs), css (styled, css, scss och tailwind). Jag har även jobbat med PHP, mysql och Wordpress."
+      }
+    ]
+  },
+  {
+    "id": "container-5",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-5-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "UX/UI-design",
+        "forwardRef": true
+      },
+      {
+        "id": "container-5-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Med mig i ert team får ni en mångsidig designer som förstår hur design kommer att utvecklas till en färdig tjänst."
+      },
+      {
+        "id": "container-5-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Med min bakgrund som webbutvecklare är jag bra på att bygga modulär (baserat på atomic design) och datadriven design baserat på användarmönster. Jag försöker alltid att se helheten och bygga design baserat på god UX och modulär UI."
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Kontakt",
+    "uri": "/kontakt",
+    "icon": "IconMobile",
+    "navigation": [
+      "mainTop",
+      "footer"
+    ]
+  },
+  {
+    "name": "English",
+    "uri": "/english",
+    "icon": "IconTranslate",
+    "navigation": [
+      "mainTop"
+    ]
+  },
+  {
+    "name": "Start",
+    "uri": "/",
+    "navigation": [
+      "main"
+    ]
+  },
+  {
+    "name": "Tjänster",
+    "uri": "/tjanster",
+    "navigation": [
+      "main"
+    ]
+  },
+  {
+    "name": "Uppdrag",
+    "uri": "/uppdrag",
+    "navigation": [
+      "main"
+    ]
+  },
+  {
+    "name": "Om Aha",
+    "uri": "/om-aha",
+    "navigation": [
+      "main"
+    ]
+  },
+  {
+    "name": "Tillgänglighet",
+    "uri": "/universell-utformning-och-tillganglighet",
+    "navigation": [
+      "main"
+    ]
+  },
+  {
+    "name": "Webbplatskarta",
+    "uri": "/webbplatskarta",
+    "navigation": [
+      "footer"
+    ]
+  },
+  {
+    "name": "Kakor",
+    "uri": "/kakor",
+    "navigation": [
+      "footer"
+    ]
+  }
+]

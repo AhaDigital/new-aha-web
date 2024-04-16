@@ -1,0 +1,23 @@
+.blurb {
+  position: relative;
+
+  &__heading {
+    @extend .heading;
+    @extend .heading--ms;
+    @extend .mt-2;
+
+    color: var(--color-tertiary-200);
+    text-decoration: underline;
+  }
+
+  &__link {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    &:hover~.blurb__heading {
+      color: var(--color-tertiary-300);
+    }
+  }
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "<span class='heading__row'>Digital services</span> that works <span class='heading__underline'>for<span></span></span> <span class='heading__underline'>all<span></span>"
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "I create digital services that works for as many users as possible from the beginning."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-2-image-1",
+        "type": "image",
+        "src": "/banner.png",
+        "height": 300,
+        "alt": "",
+        "dimension": "wide"
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-3-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "My name is Tatsumi Suzuki. I'm the founder of Aha digital AB. I'm a certified web accessibility specialist (<a href='https://www.accessibilityassociation.org/s/wascertification'>IAAP Certified WAS</a>) and I work as a consultant with front end development and with UX/UI design."
+      },
+      {
+        "id": "container-3-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Aha digital was founded to let all the users have the possibility to use a digital platform. To be able to use a website should be done without having perfect vision and a retina screen. Everybody should have the right to aha experiences."
+      }
+    ]
+  },
+  {
+    "id": "container-4",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Background",
+        "forwardRef": true
+      },
+      {
+        "id": "container-4-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Some english text"
+      }
+    ]
+  },
+  {
+    "id": "container-5",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-5-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "About Tatsumi",
+        "forwardRef": true
+      },
+      {
+        "id": "container-5-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Some english text"
+      }
+    ]
+  }
+]

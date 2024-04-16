@@ -1,0 +1,120 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-two-thirds mt-7",
+    "content": [
+      {
+        "id": "heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "visually-hidden",
+        "innerHtml": "Digitala tjänster för alla"
+      },
+      {
+        "id": "lead-1",
+        "type": "text",
+        "classNames": "text--lg",
+        "innerHtml": "Jag skapar digitala tjänster som fungerar för så många som möjligt redan från början."
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Aha Digital AB är ett enmansföretag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs av Tatsumi Suzuki som i grunden är en agilt driven webbutvecklare med certifikat inom webbtillgänglighet."
+      },
+      {
+        "id": "heading-2",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--ml mt-7",
+        "innerHtml": "Kan jag hjälpa er med något?"
+      },
+      {
+        "id": "list-1",
+        "type": "list",
+        "classNames": "mt-5",
+        "list": [
+          {
+            "id": "list-1-item-1",
+            "text": "Programmering",
+            "textSecondary": "Javascript, Typescript, React, Nodejs.",
+            "linkTo": "/tjanster/#container-4-heading-1"
+          },
+          {
+            "id": "list-1-item-2",
+            "text": "Design",
+            "textSecondary": "UX/UI-design.",
+            "linkTo": "/tjanster/#container-5-heading-1"
+          },
+          {
+            "id": "list-1-item-3",
+            "text": "Analys",
+            "textSecondary": "Tillgänglighetsredogörelse, semantik och prestanda.",
+            "linkTo": "/tjanster/#container-3-heading-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column mt-7",
+    "content": [
+      {
+        "id": "columns-1",
+        "type": "columns",
+        "classNames": "mt-5",
+        "columns": [
+          {
+            "id": "columns-1-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-1-column-1-blurb-1",
+                "type": "blurb",
+                "src": "/dov.svg",
+                "alt": "",
+                "linkTo": "/universell-utformning-och-tillganglighet",
+                "linkText": "Ungefär 20% av besökarna har någon form av funktionsnedsättning.",
+                "innerHtml": "Vad kan vi göra för att lösa felen och vilka krav har vi på oss?",
+                "headingLevel": "h2"
+              }
+            ]
+          },
+          {
+            "id": "columns-2-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-2-column-1-blurb-1",
+                "type": "blurb",
+                "src": "/dov.svg",
+                "alt": "",
+                "linkTo": "/tjanster",
+                "linkText": "Tjänster - Programmering, UX/UI-design och analys av webbplats.",
+                "innerHtml": "Jag är en brygga mellan design och webbutveckling. Med min hjälp inkluderar ni fler användare på webben.",
+                "headingLevel": "h2"
+              }
+            ]
+          },
+          {
+            "id": "columns-3-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-3-column-1-blurb-1",
+                "type": "blurb",
+                "src": "/dov.svg",
+                "alt": "",
+                "linkTo": "/uppdrag",
+                "linkText": "Tidigare uppdrag och referenser",
+                "innerHtml": "",
+                "headingLevel": "h2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

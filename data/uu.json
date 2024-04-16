@@ -1,0 +1,183 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-two-thirds mt-7",
+    "content": [
+      {
+        "id": "heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "visually-hidden",
+        "innerHtml": "Digitala tjänster för alla"
+      },
+      {
+        "id": "lead-1",
+        "type": "text",
+        "classNames": "text--lg",
+        "innerHtml": "Jag skapar digitala tjänster som fungerar för så många som möjligt redan från början."
+      },
+      {
+        "id": "text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Aha Digital AB är ett enmansföretag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs av Tatsumi Suzuki som i grunden är en agilt driven webbutvecklare med certifikat inom webbtillgänglighet."
+      },
+      {
+        "id": "heading-2",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--ml mt-7",
+        "innerHtml": "Kan jag hjälpa er med något?"
+      },
+      {
+        "id": "list-1",
+        "type": "list",
+        "classNames": "mt-5",
+        "list": [
+          {
+            "id": "list-1-item-1",
+            "text": "Programmering",
+            "textSecondary": "Javascript, Typescript, React, Nodejs.",
+            "linkTo": "/tjanster/#programmering"
+          },
+          {
+            "id": "list-1-item-2",
+            "text": "Design",
+            "textSecondary": "UX/UI-design.",
+            "linkTo": "/tjanster/#design"
+          },
+          {
+            "id": "list-1-item-3",
+            "text": "Analys",
+            "textSecondary": "Tillgänglighetsredogörelse, semantik och prestanda.",
+            "linkTo": "/tjanster/#analys"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-7",
+    "content": [
+      {
+        "id": "columns-1",
+        "type": "columns",
+        "classNames": "mt-5",
+        "columns": [
+          {
+            "id": "columns-1-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-1-column-1-image-1",
+                "type": "image",
+                "src": "/dov.svg",
+                "alt": "",
+                "squareFill": true
+              }
+            ]
+          },
+          {
+            "id": "columns-1-column-2",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-1-column-2-heading-2",
+                "type": "heading",
+                "headingLevel": "h2",
+                "classNames": "heading heading--ml",
+                "innerHtml": "Ungefär 20% av besökarna har någon form av funktionsnedsättning."
+              },
+              {
+                "id": "columns-1-column-2-text-1",
+                "type": "text",
+                "classNames": "mt-5",
+                "innerHtml": "Desto fler har det periodvis under livet. Därför skapar jag digitala lösningar som fungerar för så många som möjligt redan från början."
+              },
+              {
+                "id": "columns-1-column-2-text-2",
+                "type": "text",
+                "classNames": "mt-5",
+                "innerHtml": "Arbete med universell utformning bygger på att man till största möjliga utsträckning skapar tjänster som inte kräver ytterligare anpassning. Man tar hänsyn till människors olika behov och bygger rätt från början."
+              },
+              {
+                "id": "columns-1-column-2-text-3",
+                "type": "text",
+                "classNames": "mt-5",
+                "innerHtml": "Jag är certifierad inom webbtillgänglighet (<a href='https://www.accessibilityassociation.org/s/wascertification'>IAAP certified WAS</a>) och strävar efter att alltid utveckla webbplatser enligt europeisk standard (<a href='https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf'>EN 301 549 V2.1.2</a>) som i sin tur bygger på <a href='https://www.w3.org/TR/WCAG21/'>WCAG 2.1</a>. Jag kan även hjälpa dig att göra rätt vägval inom universell utformning och tillgänglighet."
+              },
+              {
+                "id": "columns-1-column-2-featured-link-1",
+                "type": "featuredLink",
+                "linkTo": "https://www.mfd.se/resultat-och-uppfoljning/statistik-om-personer-med-funktionsnedsattning/",
+                "innerHtml": "Statistik från MFD"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column mt-7",
+    "content": [
+      {
+        "id": "columns-1",
+        "type": "columns",
+        "classNames": "mt-5",
+        "columns": [
+          {
+            "id": "columns-1-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-1-column-1-blurb-1",
+                "type": "blurb",
+                "src": "/dov.svg",
+                "alt": "",
+                "linkTo": "/universell-utformning-och-tillganglighet",
+                "linkText": "Ungefär 20% av besökarna har någon form av funktionsnedsättning.",
+                "innerHtml": "Arbete med universell utformning, tillgänglighet och wcag",
+                "headingLevel": "h2"
+              }
+            ]
+          },
+          {
+            "id": "columns-2-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-2-column-1-blurb-1",
+                "type": "blurb",
+                "src": "/dov.svg",
+                "alt": "",
+                "linkTo": "/tjanster",
+                "linkText": "Tjänster - Programmering, UX/UI-design och analys av webbplats.",
+                "innerHtml": "Jag jobbar bland annat med design och webbutveckling med fokus på universell utformning. Med min hjälp kan vi tillsammans öka tillgängligheten på webben!",
+                "headingLevel": "h2"
+              }
+            ]
+          },
+          {
+            "id": "columns-3-column-1",
+            "type": "content",
+            "content": [
+              {
+                "id": "columns-3-column-1-blurb-1",
+                "type": "blurb",
+                "src": "/dov.svg",
+                "alt": "",
+                "linkTo": "/uppdrag",
+                "linkText": "Tidigare uppdrag och referenser",
+                "innerHtml": "",
+                "headingLevel": "h2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

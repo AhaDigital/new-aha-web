@@ -1,0 +1,105 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl break-word",
+        "innerHtml": "<span class='heading__row'>Ungefär <span class='heading__underline'>20%<span></span></span> av</span> besökarna har <span class='heading__row'>någon form av</span> funktionsnedsättning"
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "Desto fler har det periodvis under livet. Därför skapar jag digitala lösningar som fungerar för så många som möjligt redan från början."
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-2-image-1",
+        "type": "image",
+        "src": "/dov.svg",
+        "height": 300,
+        "alt": "",
+        "dimension": "wide"
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Universell utformning",
+        "forwardRef": true
+      },
+      {
+        "id": "container-3-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Arbete med universell utformning bygger på att man till största möjliga utsträckning skapar tjänster som inte kräver ytterligare anpassning. Man tar hänsyn till människors olika behov och bygger rätt från början."
+      },
+      {
+        "id": "container-3-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Lika viktigt som det är att kontinuerligt inkludera förbättringar och laga fel är det med universell utformning. Det är <strong>alltid</strong> billigare att ta en till fundering kring UX och tillgänglighet."
+      },
+      {
+        "id": "container-3-text-3",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Jag är certifierad inom webbtillgänglighet via IAAP Nordic (IAAP certified WAS) och strävar efter att alltid utveckla webbplatser enligt europeisk standard (EN 301 549) som i sin tur bygger på WCAG."
+      },
+      {
+        "id": "container-3-text-4",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Erfarenhet från tidigare uppdrag är att användarna gör färre fel och hittar det de letar efter på webbplatsen. Jag upplever även att kunden får en robust applikation som funkar, i vissa fall ökar försäljning och framför allt, de får färre klagomål."
+      }
+    ]
+  },
+  {
+    "id": "container-4",
+    "columnClass": "column is-8 is-offset-2 mt-5",
+    "content": [
+      {
+        "id": "container-4-heading-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg",
+        "innerHtml": "Lagar och regler",
+        "forwardRef": true
+      },
+      {
+        "id": "container-4-text-1",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "Den 23 september 2018 trädde Webbtillgänglighetsdirektivet i kraft inom alla EU-länder. I Sverige gäller DOS-lagen som i sin tur speglar EN 301 549 som i sin tur bygger på WCAG."
+      },
+      {
+        "id": "container-4-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Sedan dess har lagen skärpts för att inkludera fler tjänster och gäller nu offentlig sektor samt aktörer med statligt stöd."
+      },
+      {
+        "id": "container-4-text-5",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Den 28 juni 2025 träder en ny lag om tillgänglighet i kraft i Sverige. Den här gången berörs delar av den privata sektorn. Bland annat inkluderas E-handel, E-böcker, banktjänster och diverse automater med nya krav."
+      }
+    ]
+  }
+]

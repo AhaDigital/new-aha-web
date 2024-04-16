@@ -1,0 +1,69 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl break-word",
+        "innerHtml": "Hur kan jag stå till tjänst?",
+        "forwardRef": true
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column mt-5",
+    "content": [
+      {
+        "id": "container-4-text-1",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg mt-5",
+        "innerHtml": "Aha Digital AB"
+      },
+      {
+        "id": "container-4-text-2",
+        "type": "text",
+        "classNames": "mt-2",
+        "innerHtml": "<span class='block'>Sankt Göransgatan 82</span><span class='block'>112 38 Stockholm</span>"
+      },
+      {
+        "id": "container-4-text-3",
+        "type": "text",
+        "classNames": "mt-5",
+        "innerHtml": "<strong>Tel:</strong> 070 - 792 08 52"
+      },
+      {
+        "id": "container-4-text-4",
+        "type": "text",
+        "innerHtml": "<strong>E-post:</strong> <a href='mailto:hej@ahadigital.se'>hej@ahadigital.se</a>"
+      },
+      {
+        "id": "container-4-text-5",
+        "type": "heading",
+        "headingLevel": "h2",
+        "classNames": "heading heading--lg mt-6",
+        "innerHtml": "Fakturauppgifter"
+      },
+      {
+        "id": "container-4-text-6",
+        "type": "text",
+        "classNames": "mt-2",
+        "innerHtml": "<strong>Bankgiro:</strong> 5002-3159"
+      },
+      {
+        "id": "container-4-text-7",
+        "type": "text",
+        "innerHtml": "<strong>Iban-nummer:</strong> SE1050000000052311100114"
+      },
+      {
+        "id": "container-4-text-8",
+        "type": "text",
+        "innerHtml": "<strong>SEB Bic-kod:</strong> ESSESESS"
+      }
+    ]
+  }
+]

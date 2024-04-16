@@ -1,0 +1,21 @@
+.next-image {
+  position: relative;
+  padding-bottom: 56.25%;
+
+  &--wide {
+    padding-bottom: 33%;
+  }
+
+  &--square {
+    @include tablet {
+      padding-bottom: 100%;
+    }
+  }
+
+  img {
+    object-fit: cover;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+  }
+
+}
