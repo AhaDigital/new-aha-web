@@ -48,46 +48,12 @@
         "type": "text",
         "classNames": "mt-3",
         "innerHtml": "Aha digital was founded to let all the users have the possibility to use a digital platform. To be able to use a website should be done without having perfect vision and a retina screen. Everybody should have the right to aha experiences."
-      }
-    ]
-  },
-  {
-    "id": "container-4",
-    "columnClass": "column is-8 is-offset-2 mt-5",
-    "content": [
-      {
-        "id": "container-4-heading-1",
-        "type": "heading",
-        "headingLevel": "h2",
-        "classNames": "heading heading--lg",
-        "innerHtml": "Background",
-        "forwardRef": true
       },
       {
-        "id": "container-4-text-1",
+        "id": "container-3-text-3",
         "type": "text",
-        "classNames": "mt-5",
-        "innerHtml": "Some english text"
-      }
-    ]
-  },
-  {
-    "id": "container-5",
-    "columnClass": "column is-8 is-offset-2 mt-5",
-    "content": [
-      {
-        "id": "container-5-heading-1",
-        "type": "heading",
-        "headingLevel": "h2",
-        "classNames": "heading heading--lg",
-        "innerHtml": "About Tatsumi",
-        "forwardRef": true
-      },
-      {
-        "id": "container-5-text-1",
-        "type": "text",
-        "classNames": "mt-5",
-        "innerHtml": "Some english text"
+        "classNames": "mt-3",
+        "innerHtml": "Let me know if you need any help with your application. <a href='mailto:hej@ahadigital.se'>Contact me</a>."
       }
     ]
   }

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "Webbplatskarta"
+      },
+      {
+        "id": "container-1-lead-1",
+        "type": "text",
+        "classNames": "text--lg mt-5",
+        "innerHtml": "För dig som vill söka på flera sätt."
+      }
+    ]
+  },
+  {
+    "id": "container-3",
+    "columnClass": "column is-8",
+    "content": [
+      {
+        "id": "list-1",
+        "type": "list",
+        "classNames": "mt-7",
+        "list": [
+          {
+            "id": "list-1-item-1",
+            "text": "Start",
+            "linkTo": "/"
+          },
+          {
+            "id": "list-1-item-2",
+            "text": "Tjänster",
+            "linkTo": "/tjanster"
+          },
+          {
+            "id": "list-1-item-3",
+            "text": "Om Aha",
+            "linkTo": "/om-aha"
+          },
+          {
+            "id": "list-1-item-4",
+            "text": "Tillgänglighet",
+            "linkTo": "/universell-utformning-och-tillgänglighet"
+          },
+          {
+            "id": "list-1-item-5",
+            "text": "Kontakt",
+            "linkTo": "/kontakt"
+          },
+          {
+            "id": "list-1-item-6",
+            "text": "Uppdrag",
+            "linkTo": "/uppdrag"
+          },
+          {
+            "id": "list-1-item-7",
+            "text": "Uppdrag - Hermods",
+            "linkTo": "/uppdrag/hermods"
+          },
+          {
+            "id": "list-1-item-8",
+            "text": "Uppdrag - Netlife Design",
+            "linkTo": "/uppdrag/netlife-design"
+          },
+          {
+            "id": "list-1-item-9",
+            "text": "Uppdrag - Sambla, Advisa",
+            "linkTo": "/uppdrag/sambla-advisa"
+          },
+          {
+            "id": "list-1-item-10",
+            "text": "Uppdrag - Fyndiq",
+            "linkTo": "/uppdrag/fyndiq"
+          },
+          {
+            "id": "list-1-item-11",
+            "text": "Kakor",
+            "linkTo": "/kakor"
+          },
+          {
+            "id": "list-1-item-12",
+            "text": "English",
+            "linkTo": "/english"
+          }
+        ]
+      }
+    ]
+  }
+]

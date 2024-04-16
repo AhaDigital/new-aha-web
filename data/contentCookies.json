@@ -1,0 +1,44 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl",
+        "innerHtml": "Om kakor på webbplatsen ahadigital.se"
+      }
+    ]
+  },
+  {
+    "id": "container-2",
+    "columnClass": "column is-8 mt-5",
+    "content": [
+      {
+        "id": "container-2-text-1",
+        "type": "text",
+        "innerHtml": "Ahadigital.se använder kakor (cookies) för att förbättra webbplatsen och göra upplevelsen för dig som besöker sajten bättre och smidigare. En kaka är en kort textfil som webbplatsen du besöker ber om att få spara på din dator under en bestämd tid."
+      },
+      {
+        "id": "container-2-text-2",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Det finns olika typer av kakor; de som bara ligger kvar under ditt besök på webbplatsen och de som ligger kvar under en bestämd tid. En sessionskaka lagras tillfälligt på din enhet under tiden du är inne på webbplatsen, men tas bort så fort du stänger din webbläsare. En permanent kaka ligger däremot kvar på din enhet under en bestämd tid. I listan nedan hittar du hur länge de olika kakorna lagras."
+      },
+      {
+        "id": "container-2-text-3",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Om du inte vill acceptera några kakor kan du ställa in detta i din webbläsare. Du kan välja att den automatiskt blockerar lagring av kakor eller informerar dig varje gång en webbplats du besöker begär att få lagra kakor. Du kan även radera kakor som tidigare sparats i din webbläsare. Besök din webbläsares hjälpsidor för mer information om detta."
+      },
+      {
+        "id": "container-2-text-3",
+        "type": "text",
+        "classNames": "mt-3",
+        "innerHtml": "Just nu sparas inga kakor."
+      }
+    ]
+  }
+]
