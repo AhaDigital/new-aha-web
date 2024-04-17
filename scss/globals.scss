@@ -53,6 +53,11 @@ body {
   color: var(--color-neutral-300);
 }
 
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
 body {
   padding-top: 4rem;
 
