@@ -17,20 +17,21 @@ export const metadata: Metadata = {
     siteName: 'Aha Digital',
     locale: 'sv_SE',
     type: 'website',
-    images: [
-      {
-        url: 'https://nextjs.org/og.png',
-        width: 800,
-        height: 600,
-      },
-      {
-        url: 'https://nextjs.org/og-alt.png',
-        width: 1800,
-        height: 1600,
-        alt: 'My custom alt',
-      },
-    ],
+    images: '/banner.png'
   },
+  icons: {
+    icon: "/icons/icon-32x32.png",
+    apple: [
+      "/icons/icon-48x48.png",
+      "/icons/icon-72x72.png",
+      "/icons/icon-96x96.png",
+      "/icons/icon-144x144.png",
+      "/icons/icon-192x192.png",
+      "/icons/icon-256x256.png",
+      "/icons/icon-384x384.png",
+      "/icons/icon-512x512.png",
+    ]
+  }
 }
 
 export default function RootLayout({
