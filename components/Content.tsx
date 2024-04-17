@@ -69,11 +69,13 @@ const Content: React.FC<ContainerProps> = ({ withAside, asideLinks, content, col
 
     const handleTargetFocus = (e: React.MouseEvent<HTMLElement>, id: string) => {
       (e.target as HTMLElement).blur();
+      e.preventDefault()
       const el = document.getElementById(id)
 
-      if (el) {
+      if (el && window) {
         el.setAttribute('tabIndex', '0')
-        el.focus()
+        el.focus();
+        window.scrollTo(0, el.offsetTop + 60);
       }
     }
 
@@ -82,12 +84,12 @@ const Content: React.FC<ContainerProps> = ({ withAside, asideLinks, content, col
         if (forwardRef) {
           return (
             <li key={id}>
-              <Link href={`${currentPath}/#${id}`} onClick={(e) => handleTargetFocus(e, id)} scroll={false}>
+              <a href={`${currentPath}/#${id}`} onClick={(e) => handleTargetFocus(e, id)}>
                 <div>
                   <span>{stripTags(innerHtml)}</span>
                 </div>
                 <IconChevron />
-              </Link>
+              </a>
             </li>
           )
         }

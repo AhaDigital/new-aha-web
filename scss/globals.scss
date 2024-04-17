@@ -254,17 +254,7 @@ $fontSizeSm: 0.875rem; // 14px
 }
 
 .heading-container {
-  position: relative;
-  display: block;
-}
-
-.heading-position {
-  width: 100%;
-  position: absolute;
-  top: -100px;
-  left: 0;
-  display: block;
-  outline: 0;
+  outline: none;
 }
 
 body,
