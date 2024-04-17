@@ -66,12 +66,23 @@ const Content: React.FC<ContainerProps> = ({ withAside, asideLinks, content, col
   }
   const renderAsideLinks = (props: ContentProps) => {
     const { id, type, forwardRef, innerHtml = '' } = props
+
+    const handleTargetFocus = (e: React.MouseEvent<HTMLElement>, id: string) => {
+      (e.target as HTMLElement).blur();
+      const el = document.getElementById(id)
+
+      if (el) {
+        el.setAttribute('tabIndex', '0')
+        el.focus()
+      }
+    }
+
     switch (type) {
       case 'heading':
         if (forwardRef) {
           return (
             <li key={id}>
-              <Link href={`${currentPath}/#${id}`}>
+              <Link href={`${currentPath}/#${id}`} onClick={(e) => handleTargetFocus(e, id)} scroll={false}>
                 <div>
                   <span>{stripTags(innerHtml)}</span>
                 </div>
