@@ -1,13 +1,13 @@
 "use client"
 import React from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation'
 import NextImage from '@/components/primitives/NextImage';
 import Heading from '@/components/primitives/Heading';
 import Text from '@/components/primitives/Text';
 import List from '@/components/primitives/List';
 import Blurb from '@/components/primitives/Blurb';
 import IconChevron from '@/components/primitives/icons/IconChevron';
+import { scrollToElement } from '@/lib/scrollUtils';
 
 // TODO: Clean up types by re using types from components or re usable types.
 interface ListProps {
@@ -58,7 +58,6 @@ interface ContainerProps {
 
 
 const Content: React.FC<ContainerProps> = ({ withAside, asideLinks, content, columnClass }) => {
-  const currentPath = usePathname()
 
   const stripTags = (str: string) => {
     const regex = /(<([^>]+)>)/ig
@@ -67,45 +66,37 @@ const Content: React.FC<ContainerProps> = ({ withAside, asideLinks, content, col
   const renderAsideLinks = (props: ContentProps) => {
     const { id, type, forwardRef, innerHtml = '' } = props
 
-    const handleTargetFocus = (e: React.MouseEvent<HTMLElement>, id: string) => {
-      (e.target as HTMLElement).blur();
+    const handleTargetFocus = (e: React.MouseEvent<HTMLAnchorElement>) => {
       e.preventDefault()
-      const el = document.getElementById(id)
-
-      if (el && window) {
-        el.setAttribute('tabIndex', '0')
-        el.focus();
-        window.scrollTo(0, el.offsetTop + 60);
-      }
-    }
+      scrollToElement(id)
+    };
 
     switch (type) {
       case 'heading':
         if (forwardRef) {
           return (
             <li key={id}>
-              <a href={`${currentPath}/#${id}`} onClick={(e) => handleTargetFocus(e, id)}>
+              <Link href={`#${id}`} scroll={false} onClick={handleTargetFocus}>
                 <div>
                   <span>{stripTags(innerHtml)}</span>
                 </div>
                 <IconChevron />
-              </a>
+              </Link>
             </li>
           )
         }
-        return
       default:
         return;
     }
   }
 
   const renderComponent = (props: ContentProps) => {
-    const { id, type, classNames, headingLevel, list, columns, src, alt, dimension, innerHtml = '' } = props
+    const { id, type, classNames, headingLevel, list, columns, src, alt, dimension, innerHtml = '', forwardRef } = props
     switch (type) {
       case 'text':
         return innerHtml ? (<Text key={id} classNames={classNames} innerHtml={innerHtml} />) : null
       case 'heading':
-        return <Heading key={id} id={id} renderAs={headingLevel || 'h1'} classNames={classNames} innerHtml={innerHtml} />
+        return <Heading key={id} {...(forwardRef ? { id: id } : null)} renderAs={headingLevel || 'h1'} classNames={classNames} innerHtml={innerHtml} />
       case 'list':
         return list ? (<List key={id} classNames={classNames} list={list} />) : null
       case 'image':
@@ -126,6 +117,7 @@ const Content: React.FC<ContainerProps> = ({ withAside, asideLinks, content, col
                         case 'heading':
                           return <Heading key={id} classNames={classNames} renderAs={headingLevel || 'h1'} innerHtml={innerHtml} />
                         case 'featuredLink':
+
                           return linkTo ? (
                             <Link href={linkTo} key={id}>
                               {innerHtml}

@@ -38,19 +38,19 @@
             "id": "list-1-item-1",
             "text": "Programmering",
             "textSecondary": "Javascript, Typescript, React, Nodejs.",
-            "linkTo": "/tjanster/#container-4-heading-1"
+            "linkTo": "/tjanster"
           },
           {
             "id": "list-1-item-2",
             "text": "Design",
             "textSecondary": "UX/UI-design.",
-            "linkTo": "/tjanster/#container-5-heading-1"
+            "linkTo": "/tjanster"
           },
           {
             "id": "list-1-item-3",
             "text": "Analys",
             "textSecondary": "Tillgänglighetsredogörelse, semantik och prestanda.",
-            "linkTo": "/tjanster/#container-3-heading-1"
+            "linkTo": "/tjanster"
           }
         ]
       }

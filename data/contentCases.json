@@ -8,8 +8,7 @@
         "type": "heading",
         "headingLevel": "h1",
         "classNames": "heading heading--xl break-word",
-        "innerHtml": "Tidigare uppdrag",
-        "forwardRef": true
+        "innerHtml": "Tidigare uppdrag"
       },
       {
         "id": "container-1-lead-1",
