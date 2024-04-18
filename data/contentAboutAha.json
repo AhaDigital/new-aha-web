@@ -41,7 +41,7 @@
         "id": "container-3-text-1",
         "type": "text",
         "classNames": "mt-5",
-        "innerHtml": "Mitt namn är Tatsumi Suzuki och jag driver företaget Aha digital AB. Jag är en IT-konsult och arbetar med webtillgänglighet, WCAG, universell utforming och frontend-utveckling. Jag är certifierad inom webbtillgänglighet (<a href='https://www.accessibilityassociation.org/s/wascertification'>IAAP Certified WAS</a>)."
+        "innerHtml": "Aha Digital AB är ett företag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs som ett enmansföretag av mig, Tatsumi Suzuki. Jag är till grunden front end-utvecklare med öga för design och är certifierad (<a href='https://www.accessibilityassociation.org/s/wascertification'>IAAP Certified WAS</a>) inom webbtillgänglighet."
       },
       {
         "id": "container-3-text-2",

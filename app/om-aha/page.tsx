@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: pageTitle,
     description: pageDescription,
-    url: 'https://ahadigital.se/tjanster',
+    url: 'https://ahadigital.se/om-aha',
+    images: '/opengraph-image.png',
   }
 }
 

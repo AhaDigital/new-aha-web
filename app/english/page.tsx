@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     title: pageTitle,
     description: pageDescription,
     url: 'https://ahadigital.se/english',
+    images: '/opengraph-image.png',
   },
 }
 

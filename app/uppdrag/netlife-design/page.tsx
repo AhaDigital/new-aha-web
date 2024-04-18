@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     title: pageTitle,
     description: pageDescription,
     url: 'https://ahadigital.se/uppdrag/netlife-design',
+    images: '/opengraph-image.png',
   }
 }
 

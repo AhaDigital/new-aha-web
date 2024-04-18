@@ -8,10 +8,12 @@ const pageDescription = "Aha digital skapar tjänster som fungerar för så mån
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  robots: "noindex, nofollow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,
     url: 'https://ahadigital.se/kontakt',
+    images: '/opengraph-image.png',
   }
 }
 

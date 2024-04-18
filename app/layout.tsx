@@ -7,17 +7,19 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SkipToMain from "@/components/SkipToMain";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { env } from "process";
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"], weight: "700", variable: '--font-roboto-condensed' });
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"], variable: '--font-roboto' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(env.NODE_ENV === 'development' ? 'http://localhost:3000/' : 'https://ahadigital.se/'),
   robots: "index, follow",
   openGraph: {
     siteName: 'Aha Digital',
     locale: 'sv_SE',
     type: 'website',
-    images: '/banner.png'
+    images: '/opengraph-image.png',
   },
   icons: {
     icon: "/icons/icon-32x32.png",
