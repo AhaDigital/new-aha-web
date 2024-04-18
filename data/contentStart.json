@@ -20,7 +20,7 @@
         "id": "text-1",
         "type": "text",
         "classNames": "mt-5",
-        "innerHtml": "Aha Digital AB är ett företag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs som ett enmansföretag av mig, Tatsumi Suzuki. Jag är till grunden front end-utvecklare med öga för design och är certifierad inom webbtillgänglighet."
+        "innerHtml": "Aha Digital AB är ett företag med ambition att hjälpa olika aktörer som har krav på tillgänglighet på sina webbplatser och tjänster. Företaget drivs som ett enmansföretag av mig, Tatsumi Suzuki. Jag arbetar som en IT-konsult och är till grunden en front end-utvecklare med öga för design och är certifierad (<a href='https://www.accessibilityassociation.org/s/wascertification'>IAAP Certified WAS</a>) inom webbtillgänglighet."
       },
       {
         "id": "heading-2",

@@ -2,12 +2,13 @@ import { Metadata } from 'next'
 import contentA11y from '@/data/contentA11y.json';
 import Template from '@/components/TemplateAside';
 
-const pageTitle = "Tillgänglighet - universell utformning & wcag - Aha Digital"
-const pageDescription = "Jag strävar efter att utbilda och själv utveckla enligt europeisk standard som i sin tur bygger på WCAG 2.1 och WCAG 2.2"
+const pageTitle = "Tillgänglighet - Universell utformning, WCAG, webbtillgänglighetsdirektivet - Aha Digital"
+const pageDescription = "Aha digital skapar tjänster som fungerar för så många som möjligt redan från början. Hjälper med tillgänglighetsredogörelse, front end-utveckling och UX/UI-design."
 
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  robots: "index, follow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,

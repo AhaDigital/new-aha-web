@@ -8,6 +8,7 @@ const pageDescription = "Prestanda, semantik och WCAG åt Sambla och Advisa"
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  robots: "index, follow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,

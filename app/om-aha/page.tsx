@@ -2,12 +2,13 @@ import { Metadata } from 'next'
 import contentServices from '@/data/contentAboutAha.json';
 import Template from '@/components/TemplateAside';
 
-const pageTitle = "Om Aha - Specialist inom webbtillgänglighet - Aha Digital"
-const pageDescription = "Specialist inom digital tillgänglighet, expert inom wcag, universell utforming och frontend-utveckling."
+const pageTitle = "Om Aha - Tjänster som fungerar - Aha Digital"
+const pageDescription = "Aha digital skapar tjänster som fungerar för så många som möjligt redan från början. Hjälper med tillgänglighetsredogörelse, front end-utveckling och UX/UI-design."
 
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  robots: "index, follow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,

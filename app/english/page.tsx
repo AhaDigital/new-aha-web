@@ -8,6 +8,7 @@ const pageDescription = "Aha Digital creates web services that works for as many
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  robots: "index, follow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,

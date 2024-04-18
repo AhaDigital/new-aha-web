@@ -8,6 +8,7 @@ const pageDescription = "IT-konsult, lead front end-utvecklare, universell utfor
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  robots: "index, follow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,

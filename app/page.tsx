@@ -3,12 +3,14 @@ import NextImage from "@/components/primitives/NextImage";
 import contentStart from '@/data/contentStart.json';
 import Content from "@/components/Content";
 
-const pageTitle = "Tillgänglighet, frontendutveckling och design - Aha Digital"
-const pageDescription = "Aha digital skapar tjänster som fungerar för så många som möjligt redan från början. Kan hjälpa till med eran tillgänglighetsredogörelse, webbutveckling och UX/UI-design."
+const pageTitle = "Tillgänglighet, front end-utveckling, UX/UI-design - Aha Digital"
+const pageDescription = "Aha digital skapar tjänster som fungerar för så många som möjligt redan från början. Hjälp med tillgänglighetsredogörelse, front end-utveckling och UX/UI-design."
 
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  keywords: "Tillgänglighetsredogörelse, front end-utvecklare, UX/UI-design, IT-konsult, WAS, Analys",
+  robots: "index, follow",
   openGraph: {
     title: pageTitle,
     description: pageDescription,
