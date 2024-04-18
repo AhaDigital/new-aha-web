@@ -1,0 +1,22 @@
+[
+  {
+    "id": "container-1",
+    "columnClass": "column is-12-mobile is-8-desktop is-9-widescreen",
+    "content": [
+      {
+        "id": "container-1-heading-1",
+        "type": "heading",
+        "headingLevel": "h1",
+        "classNames": "heading heading--xl break-word",
+        "innerHtml": "404 - Sidan finns inte"
+      },
+      {
+        "id": "container-1-text-1",
+        "type": "text",
+        "headingLevel": "h1",
+        "classNames": "text mt-5",
+        "innerHtml": "Vänligen kontrollera addressfältet. Tillbaka till <a href='/'>startsidan</a>."
+      }
+    ]
+  }
+]

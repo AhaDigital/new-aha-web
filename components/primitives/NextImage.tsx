@@ -30,6 +30,7 @@ const NextImage: React.FC<ImageProps> = (({ dimension, src, width, height, alt }
     <div className={finalClass}>
       <Image src={src}
         {...(!width && !height ? { "fill": true } : null)}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         alt={alt} />
       {/* <Image src={src} alt={alt} sizes="100vw"
         width={500}
