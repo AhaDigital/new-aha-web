@@ -3,7 +3,7 @@ import contentServices from '@/data/contentServices.json';
 import Template from '@/components/TemplateAside';
 
 const pageTitle = "Tjänster - Tillgänglighet, webbutverkling, UX/UI-design - Aha Digital"
-const pageDescription = "Aha digital skapar tjänster som fungerar för så många som möjligt redan från början. Jag kan hjälpa dig med tillgänglighetsredogörelse, webbutveckling och UX/UI"
+const pageDescription = "Aha digital skapar tjänster som fungerar för så många som möjligt redan från början. Jag kan hjälpa er med webbutveckling, UX/UI, analys och eran tillgänglighetsredogörelse."
 
 export const metadata: Metadata = {
   title: pageTitle,
