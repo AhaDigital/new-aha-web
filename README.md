@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aha Digital website
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) 2024. This is the first re-design since the beginning of Aha Digital (launched 2021) and the old website (built with Sanity headless cms and Gatsby) was starting to get outdated. 
+
+Since time is money I knew that when I start with this project that it needed to be released in a very short period.
+
+With that in mind I got rid of the cms and created custom json objects for each page. I decided to test parts of https://bulma.io/ and use scss for the rest.
+
+This was also my first next 14 project with the new app folder. Pretty cool stuff except their link scroll to issue that I needed to hack around.
+
+Another cool thing that I found out when releasing the site was that the Lighthouse scores ended up at 100% without any refactoring.
+
+Anyway, welcome visitor. Poke around but bare in mind. This is truly MVP and there are stuff in the code that could need some extra love.
 
 ## Getting Started
 
