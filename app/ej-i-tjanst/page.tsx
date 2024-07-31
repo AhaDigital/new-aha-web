@@ -12,7 +12,7 @@ export default function AboutAha() {
     <div className='container-large'>
       <div className='article-template'>
         <article>
-          Ej i tjänst
+          <h1>Just nu kan jag inte ta nya uppdrag.</h1>
         </article>
       </div>
     </div>
