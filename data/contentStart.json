@@ -4,15 +4,9 @@
     "columnClass": "column is-two-thirds mt-7",
     "content": [
       {
-        "id": "heading-1",
+        "id": "lead-1",
         "type": "heading",
         "headingLevel": "h1",
-        "classNames": "visually-hidden",
-        "innerHtml": "Digitala tjänster för alla"
-      },
-      {
-        "id": "lead-1",
-        "type": "text",
         "classNames": "text--lg",
         "innerHtml": "Jag skapar digitala tjänster som fungerar för så många som möjligt redan från början."
       },

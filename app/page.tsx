@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import NextImage from "@/components/primitives/NextImage";
+import Heading from "@/components/primitives/Heading";
 import contentStart from '@/data/contentStart.json';
 import Content from "@/components/Content";
 
@@ -22,9 +22,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <article className="page-content">
-      <section className="container">
-        <NextImage src="/digitala-tjanster-for-alla.svg" alt="Digitala tjänster för alla" />
-      </section>
       {
         contentStart.map((props) => <Content key={props.id} {...props} />)
       }
